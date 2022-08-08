@@ -30,17 +30,17 @@ with mcol2:
 
 with mcol4:
     if hcp_selected == "NPI4602":
-        st.image("figures/hcp_network_zoom_NPI_4602.png", width=300)
+        st.image("figures/HCP_network_zoom_NPI_4602.png", width=300)
     elif hcp_selected == "NPI8998":
-        st.image("figures/hcp_network_zoom_NPI_8998.png", width=300)
+        st.image("figures/HCP_network_zoom_NPI_8998.png", width=300)
     elif hcp_selected == "NPI7606":
-        st.image("figures/hcp_network_zoom_NPI_7606.png", width=300)
+        st.image("figures/HCP_network_zoom_NPI_7606.png", width=300)
     elif hcp_selected == "NPI7995":
-        st.image("figures/hcp_network_zoom_NPI_7995.png", width=300)
+        st.image("figures/HCP_network_zoom_NPI_7995.png", width=300)
     elif hcp_selected == "NPI9503":
-        st.image("figures/hcp_network_zoom_NPI_9503.png", width=300)
+        st.image("figures/HCP_network_zoom_NPI_9503.png", width=300)
     elif hcp_selected == "NPI2485":
-        st.image("figures/hcp_network_zoom_NPI_2485.png", width=300)
+        st.image("figures/HCP_network_zoom_NPI_2485.png", width=300)
     else:
         st.image("figures/hcp_network_zoom_NPI.png", width=300)
 
