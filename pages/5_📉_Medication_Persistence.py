@@ -26,4 +26,4 @@ st.markdown("""
             - Kynmobi – 21 days
             """)
 
-st.markdown(""" ###### ©2 022 Xinjie Qiu℠""")
+st.markdown(""" ###### © 2022 Xinjie Qiu℠""")

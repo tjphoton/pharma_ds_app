@@ -1,8 +1,4 @@
 import streamlit as st
-import pandas as pd
-import altair as alt
-# import numpy as np
-# import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="Channel Optimization", page_icon="📊")
 st.sidebar.header("Channel Optimization")

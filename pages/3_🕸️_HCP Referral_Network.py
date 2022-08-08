@@ -1,11 +1,5 @@
 import streamlit as st
 import pandas as pd
-import altair as alt
-import networkx
-import plotly.figure_factory as ff
-
-# import numpy as np
-# import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="HCP referring network", page_icon="🕸️")
 st.sidebar.header("HCP Referring Network Analysis")
