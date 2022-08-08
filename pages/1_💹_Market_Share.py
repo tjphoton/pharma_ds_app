@@ -53,4 +53,4 @@ st.altair_chart(c, use_container_width=True)
 with st.expander("See the market share data"):
     st.table(df_market)
 
-st.markdown(""" ###### © 2022 Xinjie Qiu℠""")
+st.markdown(""" ###### © 2022 Xinjie Qiu ℠""")
