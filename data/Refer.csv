@@ -1,0 +1,14 @@
+Refer from,Name (from),Specialty (from),→,Refer to,Name (to),Specialty (to)
+NPI2485,Paul,Family Practice,→,NPI9503,Kelly,Dermatology
+NPI4602,Frank,Dermatology,→,NPI7606,Thy,Dermatology
+NPI4602,Frank,Dermatology,→,NPI7995,Kelly,Dermatology
+NPI4602,Frank,Dermatology,→,NPI3148,Thomas,Dermatology
+NPI4602,Frank,Dermatology,→,NPI9503,Kelly,Dermatology
+NPI2485,Paul,Family Practice,→,NPI4602,Frank,Dermatology
+NPI4602,Frank,Dermatology,→,NPI0311,Paul,"Pathology, Anatomic"
+NPI8998,Werner,Emergency Medicine,→,NPI2526,Erica,Dermatology
+NPI8998,Werner,Emergency Medicine,→,NPI4602,Frank,Dermatology
+NPI8998,Werner,Emergency Medicine,→,NPI7995,Kelly,Dermatology
+NPI8998,Werner,Emergency Medicine,→,NPI7606,Thy,Dermatology
+NPI2485,Paul,Family Practice,→,NPI7452,Paul,Physical Medicine & Rehabilitation
+NPI2485,Paul,Family Practice,→,NPI0633,Brook,Nurse Practitioner
