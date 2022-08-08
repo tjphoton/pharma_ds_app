@@ -42,7 +42,7 @@ with mcol4:
     elif hcp_selected == "NPI2485":
         st.image("figures/HCP_network_zoom_NPI_2485.png", width=300)
     else:
-        st.image("figures/hcp_network_zoom_NPI.png", width=300)
+        st.image("figures/HCP_network_zoom_NPI.png", width=300)
 
 
 st.table(df_refer[df_refer.isin([hcp_selected]).any(axis=1)])
