@@ -27,7 +27,7 @@ def run():
         st.image("figures/marketshare.png", width=160)
 
     with mcol2:
-        st.markdown("""##### HCP referral network""")
+        st.markdown("""##### High Value HCP""")
         st.image("figures/hcp_network.png", width=170)
 
     with mcol3:
@@ -60,6 +60,8 @@ def run():
     # with mcol3:
     #     st.markdown("""##### Diagnosis journey""")
     #     st.image("figures/journey_diagnosis.png", width=180)
+
+    st.markdown(""" ###### © 2022 Xinjie Qiu ℠""")
 
 
 

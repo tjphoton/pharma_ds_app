@@ -29,12 +29,10 @@ c = alt.Chart(df_lot, title="Percentage Share in EAch Line of Therapies")\
 
 st.altair_chart(c, use_container_width=True)
 
+with st.expander("A more prettier graph created with Tableau®"):
+    st.image("figures/LOT.png", width=450)
+
 with st.expander("See the line of therapies data"):
     st.table(df_lot)
-
-st.write("")
-
-st.image("figures/LOT.png", width=450)
-
 
 st.markdown(""" ###### © 2022 Xinjie Qiu ℠""")
