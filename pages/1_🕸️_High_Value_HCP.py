@@ -6,8 +6,9 @@ st.sidebar.header("HCP Referring Network Analysis")
 
 st.title("High Value Physician Identification through Referring Network Analysis")
 st.write(
-    """This demo illustrates one of the methods to identify high value HCPs though referring network 
-    from a mock anonymous sample data. Enjoy!"""
+    """This demo illustrates one idea of identifying high value HCPs and/or KOL with patient level claim data, 
+    though referring network using network analysis based on graph theory. The data is from a mocked anonymous 
+    sample data. Enjoy!"""
 )
 
 df_refer = pd.read_csv("data/Refer.csv")

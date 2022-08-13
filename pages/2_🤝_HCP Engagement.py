@@ -4,7 +4,11 @@ st.set_page_config(page_title="HCP Engagement", page_icon="🤝")
 st.sidebar.header("HCP Engagement")
 
 st.title("HCP Engagement")
-st.write("")
+st.write(
+    """This demo illustrates one idea of effectively engage with HCP through high precision 360° view 
+    micro-segmentation with RWD, digital behavior, and SDOH. The data is from a mocked anonymous 
+    sample data. Enjoy!"""
+)
 
 mcol1, mcol2, mcol3 = st.columns(3)
 
@@ -49,15 +53,11 @@ with mcol1:
 with mcol3:
     st.markdown("### SDOH Data")
     st.markdown("""
-                - Demographics
-                - Career stage
-                - Affiliation
-                - Role in practice
-                - Finance 
+                - Demographics, finance, career stage
+                - Affiliation, role in practice
                 - Engagement preference (direct mail, email, F2F)
-                - Digital channel preference
+                - Digital channel preference 
                 - Confidence in using technology
-                - Interests and attitudes towards travel
                 """)
 
 st.write("")

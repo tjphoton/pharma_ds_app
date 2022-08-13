@@ -13,8 +13,6 @@ def run():
     st.markdown(""" ##### © 2022 Xinjie Qiu ℠""")
 
     st.write("")
-    st.write("")
-
     st.markdown("""
                 **👈 Select a demo from the sidebar** to see some examples
                 of what the Pharma Data Science Tools can do!
@@ -34,7 +32,6 @@ def run():
         st.markdown("""##### Channel optimization""")
         st.image("figures/channel.png", width=200)
 
-
     mcol1, mcol2, mcol3 = st.columns(3)
     with mcol1:
         st.markdown("""##### Market share trend""")
@@ -45,9 +42,8 @@ def run():
         st.image("figures/LOT.png", width=180)
 
     with mcol3:
-        st.markdown("""##### Medication persistence""")
+        st.markdown("""##### Medication adherence""")
         st.image("figures/persistence.png", width=200)
-
 
     space0, mcol1, space1, mcol2, space2, = st.columns([1,2,.5,2,1])
     with mcol1:
