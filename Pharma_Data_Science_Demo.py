@@ -10,7 +10,7 @@ def run():
     st.sidebar.success("Select a demo above.")
 
     st.title("Pharma Data Science Tools")
-    st.markdown(""" ##### © 2022 Xinjie Qiu ℠""")
+    # st.markdown(""" ##### © 2022 Xinjie Qiu ℠""")
 
     st.write("")
     st.markdown("""
@@ -54,7 +54,7 @@ def run():
         st.markdown("""##### Treatment journey""")
         st.image("figures/journey_treatment.png", width=180)
 
-    st.markdown(""" ###### © 2022 Xinjie Qiu ℠""")
+    # st.markdown(""" ###### © 2022 Xinjie Qiu ℠""")
 
 if __name__ == "__main__":
     run()
