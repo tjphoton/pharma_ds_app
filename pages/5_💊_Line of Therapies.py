@@ -35,4 +35,4 @@ with st.expander("A more prettier graph created with Tableau®"):
 with st.expander("See the line of therapies data"):
     st.table(df_lot)
 
-# st.markdown(""" ###### © 2022 Xinjie Qiu ℠""")
+st.markdown(""" ###### © 2022 Xinjie Qiu ℠""")

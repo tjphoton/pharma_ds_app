@@ -61,4 +61,4 @@ with mcol3:
                 """)
 
 st.write("")
-# st.markdown(""" ###### © 2022 Xinjie Qiu ℠""")
+st.markdown(""" ###### © 2022 Xinjie Qiu ℠""")

@@ -52,4 +52,4 @@ with st.expander("The actual Physician Referring Network from the Analysis looks
 
     st.table(df_refer[df_refer.isin([hcp_selected]).any(axis=1)])
 
-# st.markdown(""" ###### © 2022 Xinjie Qiu ℠""")
+st.markdown(""" ###### © 2022 Xinjie Qiu ℠""")

@@ -57,4 +57,4 @@ st.altair_chart(c, use_container_width=True)
 with st.expander("See the journey data"):
     st.table(patient_selected.sort_values('DATE_OF_SERVICE', ascending=True))
 
-# st.markdown(""" ###### © 2022 Xinjie Qiu ℠""")
+st.markdown(""" ###### © 2022 Xinjie Qiu ℠""")
